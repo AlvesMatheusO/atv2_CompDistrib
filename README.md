@@ -34,6 +34,8 @@ Cada instância do WordPress compartilha o mesmo **banco de dados MySQL** e a me
 ```bash
 docker-compose up -d
 
+´´´
+
 ### 2️⃣ Testar o balanceamento de carga Nginx
 Invoke-WebRequest -Uri http://localhost -Method Head
 
